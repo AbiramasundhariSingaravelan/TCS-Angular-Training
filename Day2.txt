@@ -1,0 +1,48 @@
+App Folder:
+	1. app.component.html -> View
+	2. app.component.css -> Adding designs
+	3. app.component.spec.ts -> Testing
+	4. app.component.ts -> Core Logic
+	5. app-routing.module.ts -> Enabling navigation
+	6. app.module.ts -> Adding any additional packages of angular
+Data Binding:
+	Passing the data
+		Component to view -> One Way Data Binding
+			1. Interpolation Binding
+				-> {{}}
+			2. Property Binding []
+			3. Event Binding ()
+		Component to view & View to Component -> Two Way Data Binding
+			->[(ngModel)]
+			->FormsModule
+	npm install -g @angular/cli
+Building Blocks:
+	1. Components -> Elements of the application
+	2. Decorators -> Meta Data of the Component
+	3. Modules -> Collection of multiple components
+	4. Services -> Dependency Injection (fetch data from live server)
+	5. Templates ->super set of html
+		->Data Binding
+		->Directives 
+Pipes: 
+	Format your output
+	1. date pipe
+	2. currencypipe
+	3. slicepipe
+	4. decimalpipe
+	5. percent pipe
+	6. Jsonpipe
+	7. lowercase
+	8. uppercase
+	User-Defined Pipes:
+		Create Pipe: ng generate pipe <<nameofyourpipe>>
+Component:
+	Create Component: ng generate component <<nameofyourcomponent>>
+			ng g c courses
+
+localhost:4200/courses
+	->CoursesComponent
+localhost:4200/books
+	->BooksComponent
+localhost:4200/register
+	->RegisterComponent
